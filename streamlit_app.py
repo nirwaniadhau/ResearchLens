@@ -292,6 +292,7 @@ with st.sidebar:
                         state="complete",
                         expanded=False
                     )
+                    st.rerun()
 
             except Exception as e:
 
