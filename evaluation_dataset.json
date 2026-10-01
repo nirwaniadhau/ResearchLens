@@ -1,0 +1,281 @@
+[
+  {
+    "id": 1,
+    "question": "What is the main goal of the proposed Image-Based Data Loss Prevention framework?",
+    "ground_truth": "To detect both visible sensitive-information leakage and hidden data theft through steganography in unstructured digital images.",
+    "relevant_pages": [
+      1,
+      2
+    ],
+    "question_type": "conceptual"
+  },
+  {
+    "id": 2,
+    "question": "What validation accuracy did the EfficientNetV2-S steganalysis model achieve?",
+    "ground_truth": "78.40% validation accuracy on the five-class steganalysis task.",
+    "relevant_pages": [
+      1,
+      8,
+      10
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 3,
+    "question": "Which five classes are used in the steganalysis classification task?",
+    "ground_truth": "Clean, LSB, PVD, DCT, and FFT.",
+    "relevant_pages": [
+      2,
+      6,
+      8
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 4,
+    "question": "What OCR engine is used in the proposed framework?",
+    "ground_truth": "Tesseract OCR via pytesseract.",
+    "relevant_pages": [
+      5
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 5,
+    "question": "Which deep learning architecture is used for steganalysis?",
+    "ground_truth": "EfficientNetV2-S with ImageNet-pretrained weights.",
+    "relevant_pages": [
+      1,
+      6
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 6,
+    "question": "Which steganographic techniques are explicitly supported?",
+    "ground_truth": "LSB, PVD, DCT, and FFT.",
+    "relevant_pages": [
+      2,
+      4
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 7,
+    "question": "What statistical test provides supplementary evidence for LSB-based concealment?",
+    "ground_truth": "A chi-square statistical test.",
+    "relevant_pages": [
+      6,
+      8
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 8,
+    "question": "What three components are combined in the unified confidence score?",
+    "ground_truth": "Regex score, NLP score, and OCR score.",
+    "relevant_pages": [
+      6
+    ],
+    "question_type": "conceptual"
+  },
+  {
+    "id": 9,
+    "question": "What is the formula for the unified confidence score?",
+    "ground_truth": "unified_score = 0.50 × regex_score + 0.35 × nlp_score + 0.15 × ocr_score.",
+    "relevant_pages": [
+      6
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 10,
+    "question": "What risk category is assigned to a unified score of 0.85 or higher?",
+    "ground_truth": "CRITICAL.",
+    "relevant_pages": [
+      6
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 11,
+    "question": "What risk category is assigned when the score is below 0.30?",
+    "ground_truth": "REVIEW.",
+    "relevant_pages": [
+      6
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 12,
+    "question": "How many sensitive-information categories does the implemented DLP detector support?",
+    "ground_truth": "Fourteen categories.",
+    "relevant_pages": [
+      5
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 13,
+    "question": "What Tesseract confidence threshold is used to discard low-confidence words?",
+    "ground_truth": "Words below a confidence score of 60 on a 0–100 scale are discarded.",
+    "relevant_pages": [
+      5
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 14,
+    "question": "What image size is used as the model input for steganalysis?",
+    "ground_truth": "256 × 256 RGB.",
+    "relevant_pages": [
+      6,
+      8
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 15,
+    "question": "What F1 score did the Clean class achieve?",
+    "ground_truth": "0.985.",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 16,
+    "question": "What F1 score did the DCT class achieve?",
+    "ground_truth": "0.435.",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 17,
+    "question": "What F1 score did the PVD class achieve?",
+    "ground_truth": "0.557.",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 18,
+    "question": "Which steganalysis classes had the highest reported F1 scores?",
+    "ground_truth": "Clean (0.985), LSB (0.866), and FFT (0.862).",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 19,
+    "question": "Which steganalysis classes had comparatively lower F1 scores?",
+    "ground_truth": "PVD (0.557) and DCT (0.435).",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 20,
+    "question": "What was the average confidence across the five visible-information evaluation categories?",
+    "ground_truth": "0.782.",
+    "relevant_pages": [
+      7
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 21,
+    "question": "Which visible-information category had the highest reported confidence?",
+    "ground_truth": "Driving license, with 0.90 confidence.",
+    "relevant_pages": [
+      7
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 22,
+    "question": "How many of the five reported evaluation cases were classified as Critical risk?",
+    "ground_truth": "Four cases.",
+    "relevant_pages": [
+      8
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 23,
+    "question": "What percentage of the reported evaluation cases were Critical risk?",
+    "ground_truth": "80%.",
+    "relevant_pages": [
+      8
+    ],
+    "question_type": "numerical"
+  },
+  {
+    "id": 24,
+    "question": "Which image category had the largest number of reported sensitive findings?",
+    "ground_truth": "Internal system screenshot, with 10 findings.",
+    "relevant_pages": [
+      8
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 25,
+    "question": "How does the proposed framework differ from an OCR/NLP-oriented pipeline regarding hidden-information detection?",
+    "ground_truth": "The proposed framework supports hidden-information detection and LSB/PVD/DCT/FFT classification plus LSB statistical analysis; the OCR/NLP-oriented pipeline does not.",
+    "relevant_pages": [
+      9
+    ],
+    "question_type": "comparative"
+  },
+  {
+    "id": 26,
+    "question": "What happens when sensitive regions are detected and redaction is selected?",
+    "ground_truth": "The detected regions are obscured to produce a privacy-preserving image, using OCR word-level bounding boxes for localization.",
+    "relevant_pages": [
+      6,
+      9
+    ],
+    "question_type": "conceptual"
+  },
+  {
+    "id": 27,
+    "question": "What encryption mechanism is used by default for the generated report?",
+    "ground_truth": "Fernet symmetric encryption, described as AES-128-CBC with HMAC-SHA256 authentication.",
+    "relevant_pages": [
+      6
+    ],
+    "question_type": "factual"
+  },
+  {
+    "id": 28,
+    "question": "What two major evaluation limitations does the paper acknowledge?",
+    "ground_truth": "The visible-information experiment uses a small sample, and a stronger evaluation would require ground-truth annotated data, class-wise precision/recall/F1, confusion matrices, and controlled baseline comparisons.",
+    "relevant_pages": [
+      10
+    ],
+    "question_type": "conceptual"
+  },
+  {
+    "id": 29,
+    "question": "What future work is identified for improving steganalysis?",
+    "ground_truth": "Improving detection accuracy for adaptive embedding methods, particularly PVD and DCT.",
+    "relevant_pages": [
+      9,
+      10
+    ],
+    "question_type": "future-work"
+  },
+  {
+    "id": 30,
+    "question": "What was the total development cost of the proposed DLP framework?",
+    "ground_truth": "The paper does not report a development cost.",
+    "relevant_pages": [],
+    "question_type": "unanswerable"
+  }
+]
