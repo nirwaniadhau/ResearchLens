@@ -1,12 +1,10 @@
 # 🔬 ResearchLens — Multimodal Research Paper Assistant
 
-\<p align="center">
-&#x20; \<strong>Understand research papers through intelligent conversations.\</strong>
-\</p>
+**Understand research papers through intelligent conversations.**
 
-\<p align="center">   A multimodal Retrieval-Augmented Generation (RAG) application that combines document parsing, visual understanding, semantic search, and keyword retrieval to make research papers easier to explore. \</p>
+A multimodal Retrieval-Augmented Generation (RAG) application that combines document parsing, visual understanding, semantic search, and keyword retrieval to make research papers easier to explore.
 
-\<p align="center">   \<a href="[https://researchlens-kitf3mbd3e5ufbspadjvjg.streamlit.app/](https://researchlens-kitf3mbd3e5ufbspadjvjg.streamlit.app/)">🚀 Live Demo\</a> •   \<a href="[https://github.com/nirwaniadhau/ResearchLens](https://github.com/nirwaniadhau/ResearchLens)">GitHub Repository\</a> \</p>
+[🚀 Live Demo](https://researchlens-kitf3mbd3e5ufbspadjvjg.streamlit.app/) · [GitHub Repository](https://github.com/nirwaniadhau/ResearchLens)
 
 ---
 
